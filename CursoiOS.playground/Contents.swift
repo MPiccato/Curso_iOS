@@ -273,3 +273,12 @@ var lorenzo = Persona(name: "Lorenzo", edad: 14)
 
 martin.saludar()
 lorenzo.saludar()
+
+//STRUCT
+struct ExamplePersona {
+    var name: String
+    var edad: Int
+}
+
+var persona: ExamplePersona = ExamplePersona(name: "Lautaro", edad: 16)
+
